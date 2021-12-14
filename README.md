@@ -1,4 +1,4 @@
-# starkex
+# starkex-java-lib
 
 Java implementation of starkex-lib
 
