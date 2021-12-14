@@ -5,6 +5,7 @@ import org.bouncycastle.crypto.params.ECPrivateKeyParameters;
 import org.bouncycastle.crypto.params.ECPublicKeyParameters;
 import org.bouncycastle.math.ec.ECCurve;
 import org.bouncycastle.math.ec.ECPoint;
+
 import java.math.BigInteger;
 
 /**
@@ -131,7 +132,8 @@ public class StarkCurve {
     }
 
     /**
-     *  returns point on curve which has given coordinates
+     * returns point on curve which has given coordinates
+     *
      * @param x
      * @param y
      * @return point on the curve

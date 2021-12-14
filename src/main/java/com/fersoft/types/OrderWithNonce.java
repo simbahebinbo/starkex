@@ -1,6 +1,7 @@
 package com.fersoft.types;
 
 import com.fersoft.exception.QuantumSizeException;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;

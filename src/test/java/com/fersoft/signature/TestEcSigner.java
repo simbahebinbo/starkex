@@ -2,6 +2,7 @@ package com.fersoft.signature;
 
 import com.fersoft.exception.SignException;
 import org.junit.jupiter.api.Test;
+
 import java.math.BigInteger;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -41,6 +42,6 @@ class TestEcSigner {
         EcSigner signer = new EcSigner(curve);
         Signature signature = signer.sign(PRIVATE_KEY, MESSAGE);
 
-        assertTrue(signer.verifySignature(MESSAGE,curve.generatePublicKeyFromPrivateKey(PRIVATE_KEY),signature));
+        assertTrue(signer.verifySignature(MESSAGE, curve.generatePublicKeyFromPrivateKey(PRIVATE_KEY), signature));
     }
 }

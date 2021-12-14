@@ -7,7 +7,7 @@ import java.math.BigInteger;
  *
  * @author ferat capar
  */
-public record Signature (BigInteger r,BigInteger s){
+public record Signature(BigInteger r, BigInteger s) {
 
     @Override
     public String toString() {

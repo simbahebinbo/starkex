@@ -5,7 +5,7 @@ package com.fersoft.exception;
  *
  * @author ferat capar
  */
-public class HashingException extends StarkException{
+public class HashingException extends StarkException {
     public HashingException(String messageKey, Object... params) {
         super(messageKey, params);
     }

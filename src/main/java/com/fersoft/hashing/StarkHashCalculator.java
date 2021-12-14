@@ -3,6 +3,7 @@ package com.fersoft.hashing;
 import com.fersoft.exception.FieldExceedMaxException;
 import com.fersoft.exception.HashingException;
 import com.fersoft.types.StarkwareOrder;
+
 import java.math.BigInteger;
 
 /**

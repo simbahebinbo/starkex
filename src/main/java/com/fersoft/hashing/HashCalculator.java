@@ -2,6 +2,7 @@ package com.fersoft.hashing;
 
 import com.fersoft.exception.FieldExceedMaxException;
 import com.fersoft.exception.HashingException;
+
 import java.math.BigInteger;
 
 /**

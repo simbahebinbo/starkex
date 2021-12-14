@@ -6,6 +6,7 @@ import com.fersoft.exception.PedersonHashInputException;
 import com.fersoft.exception.QuantumSizeException;
 import com.fersoft.exception.SignException;
 import org.junit.jupiter.api.Test;
+
 import java.math.BigInteger;
 import java.util.Locale;
 

@@ -5,7 +5,7 @@ package com.fersoft.exception;
  *
  * @author ferat capar
  */
-public class PedersonHashInputException extends HashingException{
+public class PedersonHashInputException extends HashingException {
     public PedersonHashInputException(Object... params) {
         super("pedersonHashInput", params);
     }

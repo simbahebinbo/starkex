@@ -23,7 +23,7 @@ public class OrderWithNonceAndQuoteAmount extends OrderWithNonce {
 
     @Override
     protected RoundingMode getRoundingMode() {
-        return  RoundingMode.DOWN;
+        return RoundingMode.DOWN;
     }
 
     @Override
